@@ -8,7 +8,7 @@
 
 ## Welcome to EasyInject!
 ### Description
-EasyInject is a library of scripts for injecting different payloads and attack vectors into the target machine.
+EasyInject is a library of scripts for 'injecting' different payloads and attack vectors into the target machine.
 ### Disclaimer
 This library is made for ethical purposes only (for example, CTFs). Author is not responsible for any malicious activities that can be made by using any of contents of this library!
 
