@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# This script is a part of EasyInject library (licensed under MIT)
+# This script is a part of EasyInject library
 # Author is not responsible for any malicious activities
 # Read GUIDE.md (https://github.com/codelao/EasyInject/blob/main/Reverse-Shell/GUIDE.md) before using
 
